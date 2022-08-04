@@ -1,6 +1,7 @@
 # ML
 
 ## Background and Documentation:
+GraphSage - https://www.blogger.com/blog/post/edit/8640091860373674728/1300210974637268756
 
 ## Usage
 1. GraphSAGE
