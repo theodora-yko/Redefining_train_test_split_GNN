@@ -2,6 +2,6 @@
 
 Theo Ko
 
-## Explanation of uploaded files:
+## Background and Documentation:
 
 ## Launch Instructions
