@@ -1,9 +1,9 @@
 # ML
 
-## Background
+## Background & Documentation
 GraphSage - https://theodorayko.blogspot.com/2022/07/implementation-of-graphsage-using.html
 
-## Documentation
+## Summary
 **note**: For more detailed explanations & conditions of each function/class, check the specific file.
 1. **GNN**
 - contains the definition of neural network models in use   
