@@ -10,9 +10,9 @@ GraphSage - https://theodorayko.blogspot.com/2022/07/implementation-of-graphsage
 - GNN algorithms in use: GraphSAGE
 - accuracy: class, used for training & evaluating a ML model
 2. **data**:
-: downloads datasets in need
-4. **train_mask**:
-: manually defines the train mask of a given dataset 
+downloads datasets in need
+4. **train_mask**
+manually defines the train mask of a given dataset 
 - random_train_mask: creates a random training set using PyG's inbuilt function
 - create_train_mask: if default_train set False, returns data with train_mask, val_mask, test_mask attributes manually set
 - mask_a_node: Given a dataset, mask a node of given index into False (i.e. mask one datapoint in the training set)
