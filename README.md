@@ -4,8 +4,13 @@
 GraphSage - https://theodorayko.blogspot.com/2022/07/implementation-of-graphsage-using.html
 
 ## Usage
-1. GraphSAGE
-2. manual_masks
+1. GNN: 
+- contains the definition of neural network models in use   
+- class "accuracy" defined: used for training & evaluating a ML model
+
+2. data: downloads datasets in need
+3. preliminary analysis: 
+- tools in use 
 
 ## Roadmap
 - [x] preliminary GNN model
