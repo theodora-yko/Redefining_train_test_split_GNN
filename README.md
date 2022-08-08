@@ -29,3 +29,7 @@ manually defines the train mask of a given dataset
 - [ ] preliminary analysis (4) - spatial relationships between the points 
 - [ ] implement influence function from https://arxiv.org/pdf/1703.04730.pdf
 - [ ] link manual_masks with influence function and improve accuracy
+
+## Challenges ToT
+- switching between different types of data (ESPECIALLY torch tensors) 
+- understanding the structure of a PyG dataset, was very confused initially
