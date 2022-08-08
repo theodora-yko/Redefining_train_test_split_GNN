@@ -6,7 +6,8 @@ GraphSage - https://theodorayko.blogspot.com/2022/07/implementation-of-graphsage
 ## Usage
 1. GNN: 
 - contains the definition of neural network models in use   
-- class "accuracy" defined: used for training & evaluating a ML model
+- GNN algorithms in use: GraphSAGE
+- accuracy: class, used for training & evaluating a ML model
 2. data: downloads datasets in need
 3. preliminary analysis: 
 - find_the_influential_class: class, self.influential_accuracy returns a list of influential points
