@@ -10,10 +10,14 @@ GraphSage - https://theodorayko.blogspot.com/2022/07/implementation-of-graphsage
 
 2. data: downloads datasets in need
 3. preliminary analysis: 
-- tools in use 
+- major functions: find_the_influential_class, multiple_testing
 
 ## Roadmap
 - [x] preliminary GNN model
 - [x] manual_masks
+- [x] preliminary analysis (1) - identifying the influential points 
+- [ ] preliminary analysis (2) - compute & compare the gradient of each training set 
+- [ ] preliminary analysis (3) - plot the distribution
+- [ ] preliminary analysis (4) - spatial relationships between the points 
 - [ ] implement influence function from https://arxiv.org/pdf/1703.04730.pdf
 - [ ] link manual_masks with influence function and improve accuracy
