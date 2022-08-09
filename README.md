@@ -24,7 +24,7 @@ manually defines the train mask of a given dataset
 - [x] preliminary GNN model
 - [x] manual_masks
 - [x] preliminary analysis (1) - identifying the influential points 
-- [ ] preliminary analysis (2) - compute & compare the gradient of each training set 
+- [x] preliminary analysis (2) - compute & compare the gradient of each training set 
 - [ ] preliminary analysis (3) - plot the distribution
 - [ ] preliminary analysis (4) - spatial relationships between the points 
 - [ ] implement influence function from https://arxiv.org/pdf/1703.04730.pdf
