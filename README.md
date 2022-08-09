@@ -17,7 +17,8 @@ manually defines the train mask of a given dataset
 - create_train_mask: if default_train set False, returns data with train_mask, val_mask, test_mask attributes manually set
 - mask_a_node: Given a dataset, mask a node of given index into False (i.e. mask one datapoint in the training set)
 4. **preliminary analysis**
-- find_the_influential_class: class, self.influential_accuracy returns a list of influential points
+- return_accuracy: returns predictions, gradients if comput_gradient set True, accuracy of the model trained using the given data 
+- find_the_influential_class: class, self.influential_accuracy returns a list of influential points and gradients
 - multiple_testing: repeats finding the influential points multiple times  
 
 ## Roadmap
