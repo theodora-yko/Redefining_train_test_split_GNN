@@ -34,3 +34,4 @@ manually defines the train mask of a given dataset
 - reaching the accuracy level of the example I was imitating smh took SO long
 - switching between different types of data (ESPECIALLY torch tensors) 
 - understanding the structure of a PyG dataset, was very confused initially
+- each training takes time to compute, and with a bigger epoch size, it was often the case that I had to wait for several minutes to figure out there is an error in my code. 
