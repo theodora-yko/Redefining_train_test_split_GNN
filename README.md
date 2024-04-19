@@ -1,4 +1,7 @@
-# ML
+# Redefining Train - Test dataset split 
+
+Goals: From the current PyTorch Geometric library's train_test_split function, we noticed the split is randomly done by simple list slicing. We want to therefore answer the following questions regarding definition of train-test data split and node classification accuracy of GraphSAGE model: 
+- What are effective features to construct training sets for node classification using GraphSAGE Neural Network? 
 
 ## Background & Documentation
 GraphSage - https://theodorayko.blogspot.com/2022/07/implementation-of-graphsage-using.html
