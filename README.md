@@ -39,7 +39,8 @@ access to the input and the output dataset, leading to our proposed framework. B
 node in the input training data at a time, we are able to take a look at the influence of a single node in the
 overall output and, furthermore, access the fairness of our training data set.
 
-1. Node Masking
+### 1. Node Masking
+
 More formally, we will define our approach as such:
 Consider a node classification problem where we map some input space $X$ with $n$ many training points
 from $z_1, · · · , z_n$ to an output space $Y$. Given $n$ training points, our blackbox GNN model will produce n
@@ -56,7 +57,7 @@ of the influential nodes such as node similarities and node centralities. The mo
 had in common was their node centrality indices in terms of their degrees. The following images are the
 distribution of degree centrality and betweeness centrality of the training set of the Cora dataset.
 
-3. Redefining Training Sets
+### 2. Redefining Training Sets Based on Node Features
 Once we have identified influential nodes whose masking leads to an accuracy improvement, we redefine
 training sets based on influential nodes and other metrics that we have found by analysing the influential
 nodes. We have mainly trained the model based on four following sets. Note that Cora dataset has 7
