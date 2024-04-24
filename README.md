@@ -96,7 +96,9 @@ manually defines the train mask of a given dataset
 - multiple_testing: repeats finding the influential points multiple times  
 
 <hr>
+
 # Notes from Before - while working
+
 ## Roadmap
 - [x] preliminary GNN model
 - [x] implement leave-one-out manual_masks
